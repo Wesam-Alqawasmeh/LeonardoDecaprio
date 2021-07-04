@@ -1,0 +1,40 @@
+header{
+  height: 90px;
+}
+
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+    p{
+      color:white;
+      border-style: solid;
+      padding: 5px;
+      margin: 20px
+    }
+
+    #wesam{
+      color:white;
+    }
+
+    .colorblue{
+      color:white;
+    }
+
+    header ul li{
+      display: inline-block;
+
+    }
+    header ul li a{
+      color:white;
+      }
+
+    a{
+      text-decoration: none
+    }
+    ul li a{
+      float: right;
+      border-style: solid;
+    }

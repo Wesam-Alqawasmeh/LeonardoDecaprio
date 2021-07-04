@@ -8,6 +8,8 @@ else {
   alert("Wrong answer -_-")
 }
 
+function moviefun() {
+
 var favmovie = prompt("What is your fav Movie for loe ? (Titanic, The revenant, Catch me if you can)")
 
 while(favmovie != "Titanic" && favmovie != "The revenant" && favmovie != "Catch me if you can")
@@ -38,7 +40,17 @@ else if (favmovie == "Catch me if you can") {
 
 }
 }
+}
+
+moviefun();
 
 
 
-document.write("Welcome again ^-^ ")
+function rate(){
+  var rating = prompt("What is your rate for the film, 1-10 ? ")
+document.write("your rate is" + rating)
+}
+
+rate();
+
+document.write("<div>" +"Welcome again ^-^ " + "</div>")
