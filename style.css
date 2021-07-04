@@ -10,9 +10,11 @@ nav{
 }
     p{
       color:white;
+
       border-style: solid;
       padding: 5px;
       margin: 20px
+
     }
 
     #wesam{
@@ -33,8 +35,10 @@ nav{
 
     a{
       text-decoration: none
+
     }
     ul li a{
       float: right;
       border-style: solid;
+
     }
